@@ -220,7 +220,7 @@ body {
   width: 70%;
   padding: 20px 0;
   position: absolute;
-  top: calc(70% - 40px);
+  top: calc(70% - 60px);
   left: 15%;
   display: flex;
   align-items: center;
@@ -235,6 +235,6 @@ body {
 
 .business2 .back > p  {
   text-align: center;
-  margin-top: 35%;
+  margin-top: 30%;
   color: var(--red);
 }
