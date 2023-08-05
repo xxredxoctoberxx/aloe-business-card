@@ -238,3 +238,10 @@ body {
   margin-top: 35%;
   color: var(--red);
 }
+
+* { box-sizing: border-box; }
+.two { width: 7em; max-width: 100%; }
+.two p { display: inline-block; max-width: 50%; }
+.two p:nth-child(1) { float: 1px;; }
+.two p:nth-child(2) { float:center; }
+.two p:nth-child(3) {float:3px;}
